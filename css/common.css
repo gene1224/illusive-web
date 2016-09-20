@@ -1,0 +1,100 @@
+body {
+    background-color: #fff;
+    font-family: Meiryo, メイリオ, Osaka, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'MS PGothic', arial, helvetica, sans-serif;
+    font-size: 14px;
+    -webkit-text-size-adjust: 100%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+h3 small {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.specs,
+.specs-items,
+.specs-icon,
+.specs-desc,
+.dece-content,
+.content-2-contianer,
+.content-2-desc,
+.illusive-logo,
+.guard-container,
+.guard-image,
+.sales-rep-image,
+.guard-desc,
+.chk-box-container,
+.chkbox-label,
+.advantage-desc-container,
+.advantage-1,
+.advantage-1-image,
+.advantage-2,
+.advantage-2-desc,
+.advantage-2-image,
+.horizontal-line,
+.content-1 p,
+.sales-rep-desc,
+.chk-box {
+    display: inline-block;
+}
+
+.chk-box-container,
+.specs-desc,
+.illusive-logo,
+.advantage-1-image,
+.advantage-2-image,
+.guard-container,
+.guard-image,
+.sales-rep-image {
+    vertical-align: top;
+}
+
+.header {
+    z-index: -1;
+}
+
+#cv-button-heading {
+    padding-left: 8.33%;
+    padding-right: 8.33%;
+}
+
+.footer {
+    background: #041e1e;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.footer-logo {
+    margin-left: 23.333%;
+}
+
+.footer-logo img {
+    width: auto;
+    height: 45px;
+    margin-top: 10px;
+}
+
+.footer-logo p {
+    color: #fff;
+    margin-top: 20px;
+    margin-right: 23.333%;
+    float: right;
+}
